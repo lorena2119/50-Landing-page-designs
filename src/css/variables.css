@@ -1,0 +1,25 @@
+:root{
+    --color-1: #000000;
+    --color-2: #FF939B;
+    --color-3: #EF2A39;
+    --color-4: #FFFFFF;
+    --color-5: #3C2F2F;
+    --color-6: #6A6A6A;
+    --color-7: #FF9633;
+    --color-8: #F3F4F6;
+    --color-9: #F5F5F5;
+    --color-10: #808080;
+    --color-11: #1CC019;
+    --color-12: #A9A9A9;
+    --color-13: #FFD700;
+    --color-14: #A6B69B;
+    --color-15: #C2C6C2;
+    --color-16: #F0F0F0;
+    --color-17: #2E2E2E;
+    --color-18: #A6B69B;
+    --color-19: #F3F4F6;
+}
+@font-face {
+    font-family: "example";
+    src: url(../storage/fonts/example.ttf);
+}
