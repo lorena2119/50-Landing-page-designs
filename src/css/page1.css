@@ -13,7 +13,6 @@ body{
 }
 
 header{
-    background-color: var(--color-7);
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -29,12 +28,15 @@ header h1{
     font-size: 60px;
     font-family: "Avenir-Heavy";
     font-weight: bold;
+    line-height: 80px;
 }
 
 header p{
+    padding: 10px 0 0;
     font-size: 26px;
     font-family: "avenir-roman";
     color: var(--color-2);
+    line-height: 36px;
 
 }
 
@@ -49,4 +51,24 @@ header button{
     height: 54px;
     margin: 24px 0px 0px;
     font-weight: normal;
+    
+}
+
+main{
+    display: flex;
+    padding: 0px 64px 64px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+    gap: 16px;
+
+}
+
+main img{
+    width: 316px;
+    height: 288px;
+    border-radius: 16px;
+    object-fit: cover;
+
+
 }
