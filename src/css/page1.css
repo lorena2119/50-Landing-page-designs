@@ -40,7 +40,7 @@ header p{
 
 }
 
-header button{
+header a{
     background-color: var(--color-1);
     color: var(--color-3);
     font-size: 18px;
@@ -51,6 +51,8 @@ header button{
     height: 54px;
     margin: 24px 0px 0px;
     font-weight: normal;
+    text-decoration: none;
+    padding: 18px 48px;
     
 }
 
