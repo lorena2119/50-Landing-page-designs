@@ -5,10 +5,10 @@
 }
 @font-face {
     font-family: "avenir-roman";
-    src: url(../storage/fonts/avenir-roman_freefontdownload_org/avenir-roman.ttf);
+    src: url(../storage/fonts/avenir-roman/avenir-roman.ttf);
 }
 
 @font-face {
     font-family: "Avenir-Heavy";
-    src: url(../storage/fonts/Avenir-Heavy/Avenir-Heavy.ttf);
+    src: url(../storage/fonts/Avenir-Heavy/Avenir-Heavy.ttf)
 }

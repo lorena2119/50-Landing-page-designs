@@ -4,3 +4,48 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    padding: 122px 64px;
+    justify-content: space-between;
+    gap: 113px;
+    align-items: flex-start
+
+}
+
+header h1{
+    color: var(--color-1);
+    font-size: 88px;
+    font-family: "Avenir-Heavy";
+    font-weight: normal;
+    line-height: 80px;
+}
+
+header .description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header .description p{
+    padding: 0px 0 16px 0;
+    font-size: 26px;
+    font-family: "avenir-roman";
+    color: var(--color-2);
+    line-height: 35px;
+    width: 526px;
+
+}
+
+header .description a{
+    background-color: var(--color-9);
+    color: var(--color-11);
+    font-size: 18px;
+    font-family: "avenir-roman";
+    border: none;
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 16px 32px;
+
+}
