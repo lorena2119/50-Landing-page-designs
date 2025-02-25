@@ -53,3 +53,24 @@ header .title a{
     border-radius: 16px;
     background-color: var(--color-6);
 }
+
+main{
+    display: flex;
+    align-items: center;
+    padding: 0px 60px 63px 64px;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+ main .images img{
+    width: 412px;
+    height: 379.12px;
+    object-fit: cover;
+    border-radius: 16px;
+ }
+
+ main .images p{
+    font-family: "avenir-heavy";
+    font-size: 40px;
+    color: var(--color-5);
+ }
