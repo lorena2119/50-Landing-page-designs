@@ -7,7 +7,7 @@
 
 header{
     display: flex;
-    padding: 122px 64px;
+    padding: 122px 64px 120px;
     justify-content: space-between;
     gap: 113px;
     align-items: flex-start
@@ -32,7 +32,7 @@ header .description p{
     padding: 0px 0 16px 0;
     font-size: 26px;
     font-family: "avenir-roman";
-    color: var(--color-2);
+    color: var(--color-10);
     line-height: 35px;
     width: 526px;
 
@@ -48,4 +48,15 @@ header .description a{
     text-decoration: none;
     padding: 16px 32px;
 
+}
+
+main{
+    display: flex;
+    padding: 0px 64px 64px;
+
+}
+
+main img{
+    width: 100%;
+    object-fit: cover;
 }
