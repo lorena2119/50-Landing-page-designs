@@ -23,7 +23,7 @@ header h1{
     font-family: "PlayfairDisplay-Bold";
     font-weight: normal;
     line-height: 80px;
-    padding: 92.25px 0px 0px 24px;
+    padding: 55.1px 0px 0px 24px;
 
 }
 
@@ -65,6 +65,7 @@ header .button-container-1 a:last-child{
 
 header .feature-section{    
     display: flex;
+    justify-content: space-between;
     gap: 32px;
     padding: 24px;
     border: 1px solid var(--color-20);
@@ -79,5 +80,91 @@ header .feature-section .button-container{
     color: var(--color-21);
     font-family: "WorkSans-regular";
     font-size: 16px;
+}
 
+main{
+    width: 635.31px;
+    height: 778.19px;
+    margin: 62px 63.69px 92.81px 0;
+    position: relative;
+}
+
+main .main-image{
+    position: absolute;
+    width: 480px;
+    height: 628px;
+    object-fit: cover;
+    border-radius: 51.83px;
+    top: 90.24px;
+    left: 120.76px;
+    z-index: 10;
+}
+
+main div{
+    position: absolute;
+    border: 2px solid var(--color-21);
+    border-radius: 48px;
+}
+main .star-7{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+main .border-container{
+    position: absolute;
+    width: 480px;
+    height: 568px;
+    top: 31px;
+    left: 68px;
+}
+
+main .border-container-1{
+    position: absolute;
+    width: 310px;
+    height: 476px;
+    right: 0;
+    bottom: 0;
+    
+}
+
+main .star-4{
+    position: absolute;
+    z-index: 10;
+    right: 51.77px;
+    bottom: 86.34px;
+}
+
+main .star-mini{
+    position: absolute;
+    z-index: 20;
+    top: 159px;
+    left: 160px;
+}
+
+main p{
+    font-family: "WorkSans-Regular";
+    background-color: var(--color-24);
+    color: var(--color-22);
+}
+
+main .text-1{
+    position: absolute;
+    font-size: 18px;
+    top: 136px;
+    right: 0px;
+    padding: 16px 24px;
+    border-radius: 16px;
+    z-index: 10;
+}
+
+main .text-2{
+    position: absolute;
+    font-size: 24px;
+    bottom: 99.19px;
+    left: 32px;
+    padding: 16px 24px;
+    border-radius: 16px;
+    z-index: 10;
 }
