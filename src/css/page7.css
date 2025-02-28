@@ -4,3 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    align-items: flex-start;
+    padding: 64px 543px 64px 64px;
+}
+
+header h1{
+    font-family: "avenir-heavy";
+    font-size: 72px;
+    color: var(--color-16);
+    font-weight: normal;
+    line-height: 88px;
+}
