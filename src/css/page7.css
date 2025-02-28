@@ -14,7 +14,7 @@ header{
 header h1{
     font-family: "avenir-heavy";
     font-size: 72px;
-    color: var(--color-16);
+    color: var(--color-27);
     font-weight: normal;
     line-height: 88px;
 }
@@ -42,7 +42,7 @@ main div img{
 main div > p:nth-child(1){
     font-family: "avenir-heavy";
     font-size: 40px;
-    color: var(--color-27);
+    color: var(--color-30);
     align-items: top;
 }
 
@@ -50,20 +50,20 @@ main div > p:nth-child(2){
     font-family: "avenir-roman";
     font-size: 24px;
     padding: 12px 0 24px 0;
-    color: var(--color-18);
+    color: var(--color-28);
 }
 
 main .text-image p:nth-child(1){
     font-family: "avenir-roman";
     font-size: 24px;
-    color: var(--color-16);
+    color: var(--color-27);
 }
 
 main .text-image p:nth-child(2){
     font-family: "avenir-roman";
     padding: 0;
     font-size: 16px;
-    color: var(--color-16); 
+    color: var(--color-27); 
     line-height: 24px;
     font-weight: normal;
 }
@@ -71,7 +71,7 @@ main .text-image p:nth-child(2){
 main .text-image{
     position: absolute;
     bottom: 4px;
-    padding: 24px 80px 27px 24px;
+    padding: 24px 80px 24px 24px;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.49) 100%);
     border-radius: 0 0 24px 24px;

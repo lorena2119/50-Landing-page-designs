@@ -1,9 +1,10 @@
 :root{
-    --color-16: #252525;
-    --color-17: #ffffff;
-    --color-18: rgba(37, 37, 37, 0.8);
-    --color-19:rgba(37, 37, 37, 0.55);
-    --color-27: rgba(37, 37, 37, 0.35);
+    --color-27: #252525;
+    --color-28: rgba(37, 37, 37, 0.8);
+    --color-29: #FFFFFF;
+    --color-30:rgba(37, 37, 37, 0.35);
+    --color-31: linear-gradient(174deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.49343487394957986) 100%);
+    --color-32:#000000;
 
 }
 @font-face {
