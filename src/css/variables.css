@@ -1,15 +1,15 @@
 :root{
     --color-38: #363830;
-    --color-39: linear-gradient(315deg, rgba(200,204,207,1) 0%, rgba(151,163,163,1) 100%); 
+    --color-39: linear-gradient(450deg, rgba(200,204,207,1) 0%, rgba(151,163,163,1) 100%); 
     --color-40: #FFFFFF;
     --color-41: linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%);
 }
 @font-face {
-    font-family:"Poppins-Bold.ttf" ;
+    font-family:"Poppins-Bold" ;
     src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
 }
 @font-face {
-    font-family:"Poppins/Poppins-Regular.ttf" ;
+    font-family:"Poppins-Regular" ;
     src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
