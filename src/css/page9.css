@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 
-body{
+body{ position: relative;
     background: var(--color-39);
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "header" "content";
     padding: 64px;
     gap: 217px;
+    position: relative;
 }
 header{
     grid-area: header;
@@ -92,3 +93,27 @@ main div p:last-child{
     width: 204px;
     padding: 0;
 }
+
+body > img:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 64px;
+    width: 462px;
+    height: 508px;
+    z-index: -2;
+    object-fit: cover;
+
+}
+
+body > img:nth-child(4){
+    position: absolute;
+    top: 0;
+    right: 64px;
+    width: 537.4px;
+    height: 512px;
+    z-index: -2;
+    object-fit: cover;
+
+}
+    
+
