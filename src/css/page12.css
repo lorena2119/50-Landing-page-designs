@@ -101,3 +101,26 @@ main .text > p{
     font-size: 22px;
     color: var(--color-56);
 }
+
+body > img:nth-child(4){
+    position: absolute;
+    inset: 0;
+    margin: auto;
+
+}
+
+body > img:nth-child(5){
+    position: absolute;
+    right: 88px;
+    bottom: 226px;
+}
+body > img:nth-child(6){
+    position: absolute;
+    left: 142px;
+    bottom: 66.12px;
+}
+body > img:nth-child(7){
+    position: absolute;
+    top: 91px;
+    right: 587px;
+}
