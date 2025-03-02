@@ -7,12 +7,12 @@
 
 body{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "header images"
                         "content content";
     row-gap: 126px;
-    column-gap: 56px;
+    column-gap: 177px;
     padding: 92px 64.33px 59.34px 65px;
 }
 header{
@@ -35,6 +35,7 @@ header p{
     font-family: "avenir-roman";
     font-size: 26px;
     color: var(--color-52);
+    line-height: 36px;
 }
 header a{
     font-family: "Poppins-Regular";
@@ -45,4 +46,26 @@ header a{
     line-height: 18px;
     background-color: var(--color-50);
     border-radius: 36px;
+}
+
+.image-content{
+    grid-area: images;
+    position: relative;
+    height: 518.66px;
+}
+.image-content img{
+    width: 322.67px;
+    height: 384.66px;
+    object-fit: cover;
+    border-radius: 400px 400px 0 0;
+}
+.image-content img:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image-content img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
