@@ -7,11 +7,11 @@
 
 body{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 449px 1fr;
     grid-template-areas: "header images";
     background-color: var(--color-45);
     padding: 67px 64px 67px 132px;
-    row-gap: 53px;
+    gap: 53px;
 }
 
 header{
@@ -20,6 +20,7 @@ header{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    width: 449px;
 }
 header h1{
     font-family: "Poppins-Bold";
@@ -50,4 +51,19 @@ header a{
     line-height: 18px;
     background-color: var(--color-43);
     border-radius: 36px;
+}
+
+main{
+    grid-area: images;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+main img{
+    width: 172px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 40px;
 }
