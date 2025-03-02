@@ -4,3 +4,50 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header images";
+    background-color: var(--color-45);
+    padding: 67px 64px 67px 132px;
+    row-gap: 53px;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+header h1{
+    font-family: "Poppins-Bold";
+    font-size: 72px;
+    font-weight: normal;
+}
+header h1:nth-child(1){
+    color: var(--color-48);
+}
+header h1:nth-child(2){
+    color: var(--color-47);
+}
+header h1:nth-child(3){
+    color: var(--color-46);
+}
+header p{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-43);
+    padding: 24px 0;
+}
+header a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-44);
+    text-decoration: none;
+    padding: 24px 48px;
+    line-height: 18px;
+    background-color: var(--color-43);
+    border-radius: 36px;
+}
