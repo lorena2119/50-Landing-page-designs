@@ -36,6 +36,10 @@
     --color-35: #080808;
     --color-36: linear-gradient(126deg, rgba(156,32,4,1) 0%, rgba(171,39,6,1) 100%);
     --color-37: #E5B94B;
+    --color-38: #363830;
+    --color-39: linear-gradient(450deg, rgba(200,204,207,1) 0%, rgba(151,163,163,1) 100%); 
+    --color-40: #FFFFFF;
+    --color-41: linear-gradient(70deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 100%);
 }
 @font-face {
     font-family: "avenir-roman";
@@ -64,4 +68,16 @@
 @font-face {
     font-family:"WorkSans-Light" ;
     src: url(../storage/fonts/Work_Sans/static/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family:"Poppins-Bold" ;
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:"Poppins-Regular" ;
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:"Poppins-SemiBold" ;
+    src: url(../storage/fonts/Poppins/Poppins-SemiBold.ttf);
 }
