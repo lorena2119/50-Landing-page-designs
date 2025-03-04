@@ -47,6 +47,11 @@
     --color-46: #6BDFDA;
     --color-47: #9AD7F3;
     --color-48: #FEC3C7;
+    --color-49: #FFFFFF;
+    --color-50: #252525;
+    --color-51: #D9D9D9;
+    --color-52: rgba(37, 37, 37, 0.8);
+    --color-53: rgba(255, 255, 255, 0.8);
 }
 @font-face {
     font-family: "avenir-roman";
@@ -87,4 +92,8 @@
 @font-face {
     font-family:"Poppins-SemiBold" ;
     src: url(../storage/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../storage/fonts/Avenir-Book/Avenir-Book.ttf);
 }
