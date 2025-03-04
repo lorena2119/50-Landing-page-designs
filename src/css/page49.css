@@ -8,8 +8,9 @@ body{
     display: grid;
     background: var(--color-65);
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 94svh;
     grid-template-areas: "header content";
-    padding: 100px 10px 0 106px; 
+    padding: 100px 10px 0 100px; 
 }
 
 header{
@@ -21,7 +22,7 @@ header{
     /* padding: 70px 0 54px 0;
     margin-left: 169px; */
     width: 591px;
-    gap: 40px;
+    gap: 32px;
 }
 header h1{
     font-family: "Bitter-ExtraBold";
@@ -51,4 +52,27 @@ header a{
     background-color: var(--color-62);
     color: var(--color-64);
     text-decoration: none;
+}
+main{
+    grid-area: content;
+    position: relative;
+}
+main .circle-blur{
+    position: absolute;
+    z-index: -1;
+    top: 24px;
+    height: 602px;
+    width: 602px;
+    background-color: var(--color-66);
+    border-radius: 100%;
+    filter: blur(244px);
+}
+
+main > img{
+    position: absolute;
+    /* left: -200px; */
+    right: 0;
+    bottom: 0px;
+    z-index: 3;
+    object-fit: cover;
 }
