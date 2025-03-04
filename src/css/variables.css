@@ -18,14 +18,30 @@
     --color-17: #ffffff;
     --color-18: rgba(37, 37, 37, 0.8);
     --color-19:rgba(37, 37, 37, 0.55);
+    --color-20: #333333;
+    --color-21: #111111;
+    --color-22: #FFFFFF;
+    --color-23: #050505;
+    --color-24: #685FD4;
+    --color-25: #000000;
+    --color-26: #020202;
 }
-
 @font-face {
     font-family: "avenir-roman";
     src: url(../storage/fonts/avenir-roman/avenir-roman.ttf);
 }
-
 @font-face {
     font-family: "Avenir-Heavy";
     src: url(../storage/fonts/Avenir-Heavy/Avenir-Heavy.ttf)
 }
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/fonts/Work_Sans/static/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "PlayfairDisplay-Bold";
+    src: url(../storage/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf)
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/fonts/Work_Sans/static/WorkSans-Medium.ttf)
