@@ -1,5 +1,4 @@
 Work Sans Variable Font
-=======================
 
 This download contains Work Sans as both variable fonts and static fonts.
 
