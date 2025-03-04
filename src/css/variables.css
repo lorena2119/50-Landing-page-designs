@@ -13,11 +13,11 @@
     --color-12: #252525;
     --color-13: #ffffff;
     --color-14: rgba(37, 37, 37, 0.8);
-    --color-15:rgba(37, 37, 37, 0.55);
+    --color-15: rgba(37, 37, 37, 0.55);
     --color-16: #252525;
     --color-17: #ffffff;
     --color-18: rgba(37, 37, 37, 0.8);
-    --color-19:rgba(37, 37, 37, 0.55);
+    --color-19: rgba(37, 37, 37, 0.55);
     --color-20: #333333;
     --color-21: #111111;
     --color-22: #FFFFFF;
@@ -25,6 +25,12 @@
     --color-24: #685FD4;
     --color-25: #000000;
     --color-26: #020202;
+    --color-27: #252525;
+    --color-28: rgba(37, 37, 37, 0.8);
+    --color-29: #FFFFFF;
+    --color-30: rgba(37, 37, 37, 0.35);
+    --color-31: linear-gradient(174deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.49343487394957986) 100%);
+    --color-32: #000000;
 }
 @font-face {
     font-family: "avenir-roman";
@@ -45,3 +51,4 @@
 @font-face {
     font-family: "WorkSans-Medium";
     src: url(../storage/fonts/Work_Sans/static/WorkSans-Medium.ttf)
+}
