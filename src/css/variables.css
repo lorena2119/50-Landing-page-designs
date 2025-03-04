@@ -40,6 +40,13 @@
     --color-39: linear-gradient(450deg, rgba(200,204,207,1) 0%, rgba(151,163,163,1) 100%); 
     --color-40: #FFFFFF;
     --color-41: linear-gradient(70deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 100%);
+    --color-42: #BEA7A7;
+    --color-43: #FFFFFF; 
+    --color-44: #232323;
+    --color-45: #2F2F2F;
+    --color-46: #6BDFDA;
+    --color-47: #9AD7F3;
+    --color-48: #FEC3C7;
 }
 @font-face {
     font-family: "avenir-roman";
