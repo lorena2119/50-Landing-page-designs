@@ -61,7 +61,7 @@
     --color-62: #181818;
     --color-63: #252525;
     --color-64: #FFFFFF;
-    --color-65: linear-gradient(-15deg, #F8D696 0%, #EABF61 100%);
+    --color-65: linear-gradient(-15deg, #EABF61 0%, #F8D696 100%);
     --color-66: rgba(252, 235, 201, 0.8);
 }
 @font-face {
