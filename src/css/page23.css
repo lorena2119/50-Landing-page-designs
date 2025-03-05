@@ -1,0 +1,46 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-69);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "header"
+                        "content";
+    padding: 0 0 64px 59px; 
+}
+header{
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 6px;
+}
+
+header h1{
+    font-family: "Lato-Black";
+    font-size: 88px;
+    color: var(--color-70);
+}
+header p{
+    font-family: "Lato-Regular";
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-70);
+}
+header a{
+    font-family: "Lato-Regular";
+    font-size: 24px;
+    color: var(--color-71);
+    text-decoration: none;
+    padding: 24px 48px;
+    line-height: 18px;
+    background-color: var(--color-70);
+    border-radius: 16px;
+}
