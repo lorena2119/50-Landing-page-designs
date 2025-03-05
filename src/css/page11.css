@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     position: relative;
     display: grid;
@@ -24,7 +23,6 @@ header{
     padding-right: 51px;
     width: 637px;
 }
-
 header h1{
     font-family: "Avenir-Heavy";
     font-size: 72px;
@@ -53,7 +51,6 @@ header a{
     align-items: center;
     justify-content: flex-end;
 }
-
 .image-content div{
     position: relative;
     height: 518.66px;
@@ -90,7 +87,6 @@ main div{
     align-items: flex-start;
     width: 316px;
 }
-
 main div p:nth-child(2){
     font-family: "Avenir-Heavy";
     font-size: 32px;
