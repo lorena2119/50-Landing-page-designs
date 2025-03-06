@@ -8,12 +8,16 @@
 body{
     display: flex;
     gap: 24px;
+    padding: 64px;
     justify-content: space-between;
 }
 
 header{
-    padding: 64.75px 0px 64px 64.75px;
-    width: 50%;
+    width: 653px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
 
 }
 
@@ -23,8 +27,6 @@ header h1{
     font-family: "PlayfairDisplay-Bold";
     font-weight: normal;
     line-height: 80px;
-    padding: 55.1px 0px 0px 24px;
-
 }
 
 header > p{
@@ -33,14 +35,12 @@ header > p{
     font-family: "WorkSans-Regular";
     color: var(--color-20);
     line-height: 30px;
-    padding: 32px 0 32px 24px;
-
 }
 
 header .button-container-1{
     font-family: "WorkSans-Medium";
     font-size: 24px;
-    padding: 0px 0 70px 24px;
+    padding-bottom: 38px;
     display: flex;
     gap: 32px;
 }
@@ -85,7 +85,6 @@ header .feature-section .button-container{
 main{
     width: 635.31px;
     height: 778.19px;
-    margin: 62px 63.69px 92.81px 0;
     position: relative;
 }
 

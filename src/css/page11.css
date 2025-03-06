@@ -1,0 +1,100 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header images"
+                        "content content";
+    row-gap: 56px;
+    padding: 92px 64.33px 59.34px 65px;
+}
+header{
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    padding-right: 51px;
+    width: 637px;
+}
+header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    line-height: 88px;
+    color: var(--color-50);
+}
+header p{
+    font-family: "avenir-roman";
+    font-size: 26px;
+    color: var(--color-52);
+    line-height: 36px;
+}
+header a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-49);
+    text-decoration: none;
+    padding: 24px 48px;
+    line-height: 18px;
+    background-color: var(--color-50);
+    border-radius: 36px;
+}
+.image-content{
+    grid-area: images;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.image-content div{
+    position: relative;
+    height: 518.66px;
+    width: 547.67px;
+}
+.image-content img{
+    width: 322.67px;
+    height: 384.66px;
+    object-fit: cover;
+    border-radius: 400px 400px 0 0;
+}
+.image-content img:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image-content img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+main{
+    grid-area: content;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-50);
+    border-radius: 40px;
+    padding: 64px;
+    gap: 118px;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 316px;
+}
+main div p:nth-child(2){
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-53);
+}
+main div p:nth-child(3){
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    color: var(--color-49);
+    padding-top: 24px;
+}
