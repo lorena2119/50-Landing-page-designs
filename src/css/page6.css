@@ -4,23 +4,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     display: flex;
     gap: 24px;
     padding: 64px;
     justify-content: space-between;
 }
-
 header{
     width: 653px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-
 }
-
 header h1{
     color: var(--color-1);
     font-size: 64px;
@@ -28,7 +24,6 @@ header h1{
     font-weight: normal;
     line-height: 80px;
 }
-
 header > p{
     padding: 0px 0 16px 0;
     font-size: 24px;
@@ -36,7 +31,6 @@ header > p{
     color: var(--color-20);
     line-height: 30px;
 }
-
 header .button-container-1{
     font-family: "WorkSans-Medium";
     font-size: 24px;
@@ -44,7 +38,6 @@ header .button-container-1{
     display: flex;
     gap: 32px;
 }
-
 header .button-container-1 a:first-child{
     text-decoration: none;
     text-align: center;
@@ -53,7 +46,6 @@ header .button-container-1 a:first-child{
     background-color: var(--color-25);
     border-radius: 16px;
 }
-
 header .button-container-1 a:last-child{
     text-align: center;
     text-decoration: none;
@@ -62,7 +54,6 @@ header .button-container-1 a:last-child{
     border-radius: 16px;
     border: 1px solid var(--color-20);
 }
-
 header .feature-section{    
     display: flex;
     justify-content: space-between;
@@ -71,7 +62,6 @@ header .feature-section{
     border: 1px solid var(--color-20);
     border-radius: 24px;
 }
-
 header .feature-section .button-container{
     display: flex;
     flex-direction: column;
@@ -81,13 +71,11 @@ header .feature-section .button-container{
     font-family: "WorkSans-regular";
     font-size: 16px;
 }
-
 main{
     width: 635.31px;
     height: 778.19px;
     position: relative;
 }
-
 main .main-image{
     position: absolute;
     width: 480px;
@@ -98,7 +86,6 @@ main .main-image{
     left: 120.76px;
     z-index: 10;
 }
-
 main div{
     position: absolute;
     border: 2px solid var(--color-21);
@@ -109,7 +96,6 @@ main .star-7{
     top: 0;
     left: 0;
     z-index: 1;
-
 }
 main .border-container{
     position: absolute;
@@ -118,36 +104,30 @@ main .border-container{
     top: 31px;
     left: 68px;
 }
-
 main .border-container-1{
     position: absolute;
     width: 310px;
     height: 476px;
     right: 0;
     bottom: 0;
-    
 }
-
 main .star-4{
     position: absolute;
     z-index: 10;
     right: 51.77px;
     bottom: 86.34px;
 }
-
 main .star-mini{
     position: absolute;
     z-index: 20;
     top: 159px;
     left: 160px;
 }
-
 main p{
     font-family: "WorkSans-Regular";
     background-color: var(--color-24);
     color: var(--color-22);
 }
-
 main .text-1{
     position: absolute;
     font-size: 18px;
@@ -157,7 +137,6 @@ main .text-1{
     border-radius: 16px;
     z-index: 10;
 }
-
 main .text-2{
     position: absolute;
     font-size: 24px;
