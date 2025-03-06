@@ -4,12 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    padding: 64px;
+}
 header{
     display: flex;
     align-items: flex-start;
-    padding: 64px 845px 69px 64px;
+    width: 531px;
 }
-
 header h1{
     font-family: "avenir-heavy";
     font-size: 88px;
@@ -20,18 +22,15 @@ header h1{
 main{
     display: flex;
     align-items: center;
-    padding: 0px 64px 64px;
+    padding: 69px 0 0 0;
     gap: 56px;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
-
 main div{
     display: flex;
     flex-direction: column;
     width: 400px;
 }
-
 main div img{
     width: 400px;
     height: 345px;
@@ -39,17 +38,14 @@ main div img{
     padding: 24px 0 0 0;
     overflow: hidden;
 }
-
 main div .page-number{
     font-family: "avenir-heavy";
     font-size: 32px;
     color: var(--color-19);
 }
-
 main div .description{
     font-family: "avenir-roman";
     font-size: 24px;
     color: var(--color-18);
     line-height: 35px;
 }
-

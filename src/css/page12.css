@@ -17,6 +17,7 @@ header{
     align-items: flex-start;
     flex-direction: column;
     gap: 24px;
+    width: 637px;
     padding-right: 118px;
 }
 header h1{
@@ -25,14 +26,12 @@ header h1{
     line-height: 88px;
     color: var(--color-55);
 }
-
 header p{
     font-family: "avenir-roman";
     font-size: 24px;
     line-height: 36px;
     color: var(--color-56);
 }
-
 header a{
     font-family: "Poppins-Regular";
     font-size: 24px;
@@ -43,7 +42,6 @@ header a{
     background-color: var(--color-55);
     border-radius: 36px;
 }
-
 body > img:nth-child(2){
     position: absolute;
     grid-area: header;
@@ -54,7 +52,6 @@ body > img:nth-child(2){
     right: 4%;
     bottom: 0;
 }
-
 main{
     display: flex;
     flex-direction: column;
@@ -63,6 +60,7 @@ main{
 .images{
     height: 651px;
     position: relative;
+    width: 656px;
 }
 .images > img{
     width: 316px;
@@ -70,7 +68,6 @@ main{
     object-fit: cover;
     border-radius: 24px;
 }
-
 .images > img:nth-child(2){
     position: absolute;
     right: 0;
@@ -86,8 +83,9 @@ main .text{
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin-top: 120px;
+    width: 668px;
     padding: 16px;
+    margin-top: 120px;
 }
 main .text > img{
     width: 80px;
@@ -95,20 +93,16 @@ main .text > img{
     object-fit: cover;
     border-radius: 100%;
 }
-
 main .text > p{
     font-family: "avenir-roman";
     font-size: 22px;
     color: var(--color-56);
 }
-
 body > img:nth-child(4){
     position: absolute;
     inset: 0;
     margin: auto;
-
 }
-
 body > img:nth-child(5){
     position: absolute;
     right: 88px;
@@ -122,5 +116,5 @@ body > img:nth-child(6){
 body > img:nth-child(7){
     position: absolute;
     top: 91px;
-    right: 587px;
+    left: 498px;
 }

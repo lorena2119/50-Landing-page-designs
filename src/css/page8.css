@@ -10,7 +10,8 @@ body{
     background: var(--color-36);
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "content header";
-    padding: 64px;
+    padding: 64px 64px 0 64px;
+    grid-template-rows: 93.45svh;
 }
 
 header{
@@ -18,10 +19,9 @@ header{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 70px 0 54px 0;
     margin-left: 169px;
     width: 487px;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 40px;
 }
 header h1{
@@ -55,7 +55,7 @@ main{
 main .circle{
     position: absolute;
     z-index: -1;
-    top: 24px;
+    bottom: 181.5px;
     height: 656px;
     width: 656px;
     background-color: var(--color-37);
@@ -65,17 +65,19 @@ main .circle{
 main img:nth-child(2){
     position: absolute;
     z-index: 2;
+    bottom: 637px;
+    left: 0;
 }
 main img:nth-child(3){
     position: absolute;
-    bottom: 5px;
-    right: 0;
+    bottom: 70px;
+    left: 432px;
     z-index: 2;
 }
 main img:nth-child(4){
     position: absolute;
     left: 0;
-    top: 66px;
+    bottom: 0;
     z-index: 3;
 }
 
