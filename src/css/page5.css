@@ -4,10 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    padding: 64px;
+}
 header{
     display: flex;
     align-items: flex-start;
-    padding: 64px 845px 69px 64px;
+    width: 531px;
 }
 
 header h1{
@@ -20,9 +23,8 @@ header h1{
 main{
     display: flex;
     align-items: center;
-    padding: 0px 64px 64px;
+    padding: 69px 0 0 0;
     gap: 56px;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
