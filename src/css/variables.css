@@ -13,11 +13,11 @@
     --color-12: #252525;
     --color-13: #ffffff;
     --color-14: rgba(37, 37, 37, 0.8);
-    --color-15:rgba(37, 37, 37, 0.55);
+    --color-15: rgba(37, 37, 37, 0.55);
     --color-16: #252525;
     --color-17: #ffffff;
     --color-18: rgba(37, 37, 37, 0.8);
-    --color-19:rgba(37, 37, 37, 0.55);
+    --color-19: rgba(37, 37, 37, 0.55);
     --color-20: #333333;
     --color-21: #111111;
     --color-22: #FFFFFF;
@@ -25,6 +25,39 @@
     --color-24: #685FD4;
     --color-25: #000000;
     --color-26: #020202;
+    --color-27: #252525;
+    --color-28: rgba(37, 37, 37, 0.8);
+    --color-29: #FFFFFF;
+    --color-30: rgba(37, 37, 37, 0.35);
+    --color-31: linear-gradient(174deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.49343487394957986) 100%);
+    --color-32: #000000;
+    --color-33: #FFFFFF;
+    --color-34: rgba(255, 255, 255, 0.5); 
+    --color-35: #080808;
+    --color-36: linear-gradient(126deg, rgba(156,32,4,1) 0%, rgba(171,39,6,1) 100%);
+    --color-37: #E5B94B;
+    --color-38: #363830;
+    --color-39: linear-gradient(450deg, rgba(200,204,207,1) 0%, rgba(151,163,163,1) 100%); 
+    --color-40: #FFFFFF;
+    --color-41: linear-gradient(70deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 100%);
+    --color-42: #BEA7A7;
+    --color-43: #FFFFFF; 
+    --color-44: #232323;
+    --color-45: #2F2F2F;
+    --color-46: #6BDFDA;
+    --color-47: #9AD7F3;
+    --color-48: #FEC3C7;
+    --color-49: #FFFFFF;
+    --color-50: #252525;
+    --color-51: #D9D9D9;
+    --color-52: rgba(37, 37, 37, 0.8);
+    --color-53: rgba(255, 255, 255, 0.8);
+    --color-54: #4F4F4F;
+    --color-55: #252525;
+    --color-56: rgba(37, 37, 37, 0.8);
+    --color-57: #FFFFFF;
+    --color-58: #D9D9D9;
+    --color-59: #F0C3D2;
 }
 @font-face {
     font-family: "avenir-roman";
@@ -45,3 +78,28 @@
 @font-face {
     font-family: "WorkSans-Medium";
     src: url(../storage/fonts/Work_Sans/static/WorkSans-Medium.ttf)
+}
+@font-face {
+    font-family:"WorkSans-Bold";
+    src: url(../storage/fonts/Work_Sans/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family:"WorkSans-Light" ;
+    src: url(../storage/fonts/Work_Sans/static/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family:"Poppins-Bold" ;
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:"Poppins-Regular" ;
+    src: url(../storage/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:"Poppins-SemiBold" ;
+    src: url(../storage/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../storage/fonts/Avenir-Book/Avenir-Book.ttf);
+}
