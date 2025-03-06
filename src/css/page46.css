@@ -18,7 +18,7 @@ main{
     position: absolute;
     inset: 0;
     margin: auto;
-    padding: 0 382px;
+    width: 676px;
     gap: 32px;
 }
 main h1{
