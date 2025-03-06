@@ -1,0 +1,78 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    background: var(--color-65);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 94svh;
+    grid-template-areas: "header content";
+    padding: 100px 10px 0 100px; 
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 70px 0 54px 0;
+    margin-left: 169px; */
+    width: 591px;
+    gap: 32px;
+}
+header h1{
+    font-family: "Bitter-ExtraBold";
+    font-size: 72px;
+    line-height: 96px;
+    color: var(--color-62);
+}  
+header img{
+    object-fit: cover;
+    padding: 0 0 32px 0;
+}
+
+header p{
+    font-family: "SpaceMono-Regular";
+    color: var(--color-63);
+    font-size: 24px;
+    line-height: 34px;
+    padding-right: 66px;
+}
+
+header a{
+    font-family: "SpaceMono-Regular";
+    font-size: 20px;
+    line-height: 18px;
+    padding: 24px 40px;
+    border-radius: 40px;
+    background-color: var(--color-62);
+    color: var(--color-64);
+    text-decoration: none;
+}
+main{
+    grid-area: content;
+    position: relative;
+}
+main .circle-blur{
+    position: absolute;
+    z-index: -1;
+    top: 24px;
+    height: 602px;
+    width: 602px;
+    background-color: var(--color-66);
+    border-radius: 100%;
+    filter: blur(244px);
+}
+
+main > img{
+    position: absolute;
+    /* left: -200px; */
+    right: 0;
+    bottom: 0px;
+    z-index: 3;
+    object-fit: cover;
+}
