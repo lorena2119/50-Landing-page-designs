@@ -12,7 +12,6 @@ header{
     align-items: flex-start;
     width: 531px;
 }
-
 header h1{
     font-family: "avenir-heavy";
     font-size: 88px;
@@ -27,13 +26,11 @@ main{
     gap: 56px;
     justify-content: space-between;
 }
-
 main div{
     display: flex;
     flex-direction: column;
     width: 400px;
 }
-
 main div img{
     width: 400px;
     height: 345px;
@@ -41,17 +38,14 @@ main div img{
     padding: 24px 0 0 0;
     overflow: hidden;
 }
-
 main div .page-number{
     font-family: "avenir-heavy";
     font-size: 32px;
     color: var(--color-19);
 }
-
 main div .description{
     font-family: "avenir-roman";
     font-size: 24px;
     color: var(--color-18);
     line-height: 35px;
 }
-
