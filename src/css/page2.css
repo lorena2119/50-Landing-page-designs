@@ -4,46 +4,62 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-header{
-    display: flex;
-    padding: 65px 64px 72px;
-
+body{
+    display: grid;
+    row-gap: 72px;
+    grid-template-areas: "header" "main";
+    padding: 64px;
 }
-
+header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 header .title{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 72px 75px 0px 2px;
-}
 
+    justify-content: center;
+    width: 444px;
+    gap: 24px;
+}
 header .title h1{
     font-family: "avenir-heavy";
     font-size: 56px;
     font-weight: normal;
 }
-
 header .title p{
     font-family: "avenir-roman";
     font-size: 26px;
     color: var(--color-8);
-    padding: 0px 0 24px 0px;
+    padding-right: 54px;
     line-height: 35px;
 }
-header img{
+header .image-header-1 img{
     width: 408px;
     height: 480px;
     object-fit: cover;
     border-radius: 16px;
 }
-
-header .image-header-2 img{
-    margin: 152px 0px 0px 35px;
-    object-fit: cover;
-
+header .image-header-1{
+    position: relative;
+    display: flex;
+    width: 851px;
+    right: 0;
+    height: 632px;
 } 
-
+header .image-header-1 img:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header .image-header-1 img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} 
 header .title a{
     font-family: "avenir-roman";
     font-size: 16px;
@@ -53,12 +69,10 @@ header .title a{
     border-radius: 16px;
     background-color: var(--color-6);
 }
-
 main{
+    grid-area: main;
     display: flex;
     align-items: center;
-    padding: 0px 60px 63px 64px;
-    flex-wrap: wrap;
     gap: 40px;
     justify-content: space-between;
 }
@@ -68,7 +82,6 @@ main{
     object-fit: cover;
     border-radius: 16px;
  }
-
  main .images p{
     font-family: "avenir-heavy";
     font-size: 40px;

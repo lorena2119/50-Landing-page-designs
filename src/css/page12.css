@@ -1,0 +1,120 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    display: grid;
+    padding: 64px 61px 64px 64px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header main";
+}
+header{
+    grid-area: header;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    width: 637px;
+    padding-right: 118px;
+}
+header h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    line-height: 88px;
+    color: var(--color-55);
+}
+header p{
+    font-family: "avenir-roman";
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--color-56);
+}
+header a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-57);
+    text-decoration: none;
+    padding: 24px 48px;
+    line-height: 18px;
+    background-color: var(--color-55);
+    border-radius: 36px;
+}
+body > img:nth-child(2){
+    position: absolute;
+    grid-area: header;
+    width: 316px;
+    height: 436px;
+    object-fit: cover;
+    border-radius: 24px;
+    right: 4%;
+    bottom: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    grid-area: main;
+}
+.images{
+    height: 651px;
+    position: relative;
+    width: 656px;
+}
+.images > img{
+    width: 316px;
+    height: 436px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+.images > img:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.images > img:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 215px;
+}
+main .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 668px;
+    padding: 16px;
+    margin-top: 120px;
+}
+main .text > img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+main .text > p{
+    font-family: "avenir-roman";
+    font-size: 22px;
+    color: var(--color-56);
+}
+body > img:nth-child(4){
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+body > img:nth-child(5){
+    position: absolute;
+    right: 88px;
+    bottom: 226px;
+}
+body > img:nth-child(6){
+    position: absolute;
+    left: 142px;
+    bottom: 66.12px;
+}
+body > img:nth-child(7){
+    position: absolute;
+    top: 91px;
+    left: 498px;
+}
